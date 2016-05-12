@@ -1,0 +1,16 @@
+{
+  "name": "druidvav/crawler-detect-bundle",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "description": "",
+  "autoload": {
+    "psr-4": { "": "src/" }
+  },
+  "require": {
+    "php": ">=5.6.0",
+    "symfony/framework-bundle": "~2.6|~3.0",
+    "symfony/twig-bundle":      "~2.6|~3.0",
+    "symfony/form":             "~2.6|~3.0",
+    "jaybizzle/crawler-detect": "1.*"
+  }
+}

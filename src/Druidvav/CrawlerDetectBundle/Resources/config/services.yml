@@ -1,0 +1,6 @@
+services:
+  dv.crawler_detect:
+    class:     Druidvav\CrawlerDetectBundle\CrawlerDetect
+    arguments: [ "@dv.crawler_detect.service" ]
+  dv.crawler_detect.service:
+    class:     Jaybizzle\CrawlerDetect\CrawlerDetect
